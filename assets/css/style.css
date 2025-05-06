@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+h1, h2 {
+    color: #0056b3;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar Styles */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #0056b3 !important;
+}
+
+.navbar-nav .nav-link {
+    color: #333 !important;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #f8f9fa;
+    border: none;
+}
+
+.navbar-nav .dropdown-item:hover {
+    background-color: #e9ecef;
+}
+
+/* Content Section */
+#content {
+    padding: 2rem 1rem;
+}
+
+#content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+#content p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Style for the image in the content section */
+#content img {
+/*     max-width: 50%; Adjust the percentage as needed */
+    max-height: 50%;
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin: 0 auto; /* Center the image */
+    display: block; /* Ensure it's treated as a block element */
+}
+
+/* Footer Styles */
+#footer {
+    background-color: #e9ecef;
+    color: #333;
+    padding: 1.5rem 0;
+}
+
+#footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+#footer a {
+    color: #0056b3;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#footer i {
+    margin-right: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #content h1 {
+        font-size: 2rem;
+    }
+
+    #content h2 {
+        font-size: 1.5rem;
+    }
+
+    #footer p {
+        font-size: 0.9rem;
+    }
+}
